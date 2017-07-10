@@ -9,6 +9,8 @@ abstract class Shape {
     private float px;
     private float py;
 
+    byte thing = 0x2;
+
     Shape(PApplet p, float x, float y) {
         this.p = p;
         this.x = x;
